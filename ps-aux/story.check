@@ -1,0 +1,4 @@
+nginx: master
+nginx: worker
+
+
