@@ -1,6 +1,6 @@
 # SYNOPSIS
 
-nginx-check - checks if nginx server is healthy by excecuting low level system checks ( ps, pid, etime )
+nginx-check - checks if nginx server is healthy by executing low level system checks ( ps, pid, etime )
 
 # INSTALL
 

@@ -1,7 +1,7 @@
 {
-  "version" : "0.0.5.2",
+  "version" : "0.0.5.4",
   "name"    : "nginx-check",
   "engine"  : "generic",
-  "description" : "outthentic test suite for nginx web server",
+  "description" : "checks if nginx server is healthy by executing low level system checks ( ps, pid, etime )",
   "url"         : "https://github.com/melezhik/nginx-check"
 }
