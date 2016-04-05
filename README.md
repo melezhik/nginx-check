@@ -1,27 +1,28 @@
 # SYNOPSIS
 
-nginx-check - outthentic test suite for nginx web server
+nginx-check - checks if nginx server is healthy by excecuting low level system checks ( ps, pid, etime )
 
 # INSTALL
 
-sparrow plg install nginx-check
+    $ sparrow plg install nginx-check
 
 
 # USAGE
 
-sparrow plg run nginx-check
+    $ sparrow project create myhost
+    $ sparrow check add myhost nginx-server
+    $ sparrow check set myhost nginx-server nginx-check
+    $ export EDITOR=nano sparrow check ini myhost nginx-server
 
 # Settings
-      
-    
-    [nginx]
-    
-    # change this to 1 if you want to validate nginx master process age
-    check_master_age = 0
-    
-    # if check_master_age set to 1, verify that process etimes <= master_age seconds
-    master_age = 60 
-      
+
+  # change this to 1 if you want to validate nginx master process age
+  validate_etime = 0
+  
+  # if check_master_age set to 1, verify that process is younger than given time period
+  # example values: 10 minutes 1 days 3 hours
+  history = 10 minutes
+        
 
 # AUTHOR
 
