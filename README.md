@@ -16,13 +16,13 @@ nginx-check - checks if nginx server is healthy by excecuting low level system c
 
 # Settings
 
-  # change this to 1 if you want to validate nginx master process age
-  validate_etime = 0
-  
-  # if check_master_age set to 1, verify that process is younger than given time period
-  # example values: 10 minutes 1 days 3 hours
-  history = 10 minutes
-        
+    # change this to 1 if you want to validate nginx master process age
+    validate_etime = 0
+    
+    # if check_master_age set to 1, verify that process is younger than given time period
+    # example values: 10 minutes 1 days 3 hours
+    history = 10 minutes
+          
 
 # AUTHOR
 
