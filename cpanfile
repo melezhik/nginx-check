@@ -1,3 +1,3 @@
-requires 'Outthentic', '>= 0.0.16';
+requires 'Outthentic', '>= 0.0.19';
 requires 'DateTime';
 
