@@ -5,7 +5,7 @@ sub validate_nginx_etime {
       my $pid = shift;
       my $cmd = shift;
       my $tm  = shift;
-      my $history = config()->{nginx}->{history};
+      my $history = config()->{history};
 
       my ($ptime, $days, $h, $m, $s);
 

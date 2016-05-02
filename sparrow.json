@@ -1,5 +1,5 @@
 {
-  "version" : "0.0.5.5",
+  "version" : "0.0.6.0",
   "name"    : "nginx-check",
   "engine"  : "generic",
   "description" : "checks if nginx server is healthy by executing low level system checks ( ps, pid, etime )",

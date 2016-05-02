@@ -17,8 +17,6 @@ nginx-check - checks if nginx server is healthy by executing low level system ch
 
 # Settings
 
-    [nginx]
-
     # change this to 1 if you want to validate nginx master process age
     validate_etime = 0
     

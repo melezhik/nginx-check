@@ -1,6 +1,1 @@
-regexp: /var/run/nginx.pid: (\d+)
-code: our $NGINX_PID = capture()->[0];
-within: nginx: master
-code: note 'nginx pid read from pid file should be seen at proccess list ...'
-generator: our $NGINX_PID; [ 'regexp: ^\S+\s+'.$NGINX_PID.'\s+\S' ]
-
+nginx
