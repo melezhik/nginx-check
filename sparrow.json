@@ -1,5 +1,5 @@
 {
-  "version" : "0.0.7.1",
+  "version" : "0.0.7.2",
   "name"    : "nginx-check",
   "description" : "checks if nginx server is healthy by executing low level system checks ( ps, pid, etime )",
   "url"         : "https://github.com/melezhik/nginx-check"
