@@ -1,11 +1,14 @@
 regexp: .*
-code: note capture()->[0]
-
 
 regexp: (\d+)\s+(.*)\s+(\S+)
 
-generator: if ( config()->{validate_etime} ) { \
+generator: <<CODE
 
-[ 'validator: validate_nginx_etime(@{capture()})' ]     \
+if ( config()->{validate_etime} ) { 
+
+  [ 'validator: validate_nginx_etime(@{capture()})' ] 
 
 } else { [] }
+
+CODE
+
