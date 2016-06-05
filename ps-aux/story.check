@@ -1,8 +1,5 @@
 
-code: note 'nginx master process should be seen in process list ...'
 nginx: master
-
-code: note 'nginx worker process(es) should be seen in process list ...'
 nginx: worker
 
 
