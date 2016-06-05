@@ -20,7 +20,9 @@ nginx-check - checks if nginx server is healthy by executing low level system ch
     # example values: 10 minutes 1 days 3 hours
     history = 10 minutes
           
+For example:
 
+    $ sparrow plg run nginx-check --param validate_etime=1 --param history="'100 seconds'"
 # AUTHOR
 
 [Alexey Melezhik](mailto:melezhik@gmail.com)

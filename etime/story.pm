@@ -35,6 +35,6 @@ sub validate_nginx_etime {
       my $check_time = DateTime->now()->subtract( reverse ( split /\s+/, $history ) );
 
 
-      [ ! ( DateTime->compare( $ptime, $check_time  ) == -1 ) , "nginx master process runs no more then $history" ]
+      [ ! ( DateTime->compare( $ptime, $check_time  ) == -1 ) , "nginx master process runs no longer then $history" ]
 
 }
