@@ -9,13 +9,9 @@ nginx-check - checks if nginx server is healthy by executing low level system ch
 
 # USAGE
 
-    $ sparrow project create myhost
-    $ sparrow check add myhost nginx-server
-    $ sparrow check set myhost nginx-server nginx-check
-    $ export EDITOR=nano sparrow check ini myhost nginx-server
-    $ sparrow check run myhost nginx-server 
+    $ sparrow plg run nginx-check
 
-# Settings
+# Pluigns paramaters
 
     # change this to 1 if you want to validate nginx master process age
     validate_etime = 0
