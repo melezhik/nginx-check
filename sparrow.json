@@ -1,6 +1,7 @@
 {
-  "version" : "0.0.7.5",
+  "version" : "0.1.0",
   "name"    : "nginx-check",
   "description" : "checks if nginx server is healthy by executing low level system checks ( ps, pid, etime )",
-  "url"         : "https://github.com/melezhik/nginx-check"
+  "url"         : "https://github.com/melezhik/nginx-check",
+  "category"    : "monitoring"
 }
