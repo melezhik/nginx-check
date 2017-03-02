@@ -13,4 +13,4 @@ install:
   - sparrow plg install nginx-check
 
 script:
-  - sparrow plg run nginx-check --param validate_etime=1 --param history="5 seconds"
+  - sparrow plg run nginx-check --param validate_etime=1 --param history="'5 seconds'"
